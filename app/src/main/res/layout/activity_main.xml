@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="check"
+            android:layout_width="134dp"
+            android:layout_height="70dp"></Button>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="134dp"
+            android:layout_height="70dp"
+            android:onClick="check"></Button>
+    </GridLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/Reset"
+                android:layout_width="136dp"
+                android:layout_height="70dp"
+                android:onClick="ResetGame"
+                android:text="Restart"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+
+
+</LinearLayout>
