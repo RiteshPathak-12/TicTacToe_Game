@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                     Disable();
 
                 } else if (count==9) {
-                    tostCreation_drawn();
+                    tostCreation_draw();
                     Disable();
 
                 }
@@ -255,12 +255,12 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
-    private void tostCreation_drawn(){
+    private void tostCreation_draw(){
         Toast toast=new Toast(this);
         View view=getLayoutInflater().inflate(R.layout.toast_creation3,(ViewGroup) findViewById(R.id.toastContainer3));
         toast.setView(view);
         TextView toastMass3=view.findViewById(R.id.toastMass3);
-        toastMass3.setText("Match is Drawn");
+        toastMass3.setText("Match is Draw");
         toast.setDuration(Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP|Gravity.CENTER,0,100);
         toast.show();
