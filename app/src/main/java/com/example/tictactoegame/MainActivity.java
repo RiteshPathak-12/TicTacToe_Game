@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         exitDilog.setButton(DialogInterface.BUTTON_NEGATIVE, "No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                tostCreation_Continoue();
+                tostCreation_Continue();
                 init();
             }
         });
@@ -277,12 +277,12 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
-    private void tostCreation_Continoue(){
+    private void tostCreation_Continue(){
         Toast toast=new Toast(this);
         View view=getLayoutInflater().inflate(R.layout.toast_creation2,(ViewGroup) findViewById(R.id.toastContainer2));
         toast.setView(view);
         TextView toastMass2=view.findViewById(R.id.toastMass2);
-        toastMass2.setText("Plese Continoue your game");
+        toastMass2.setText("Plese Continue your game");
         toast.setDuration(Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP|Gravity.CENTER,0,100);
         toast.show();
