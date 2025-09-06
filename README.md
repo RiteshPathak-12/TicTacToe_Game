@@ -27,10 +27,10 @@ This project is designed for fun and to demonstrate core programming concepts li
 2.Basics of Android development
 3.Handling UI components and custom Toast messages
 
-🤝 Contributing
+🤝 Contributing:-
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-📜 License
+📜 License:-
 This project is licensed under the MIT License – feel free to use and modify it.
 
 👨‍💻 Developed by Ritesh Pathak
